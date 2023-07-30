@@ -5,3 +5,10 @@ Foi utilizado: HTML, CSS, JavaScript e Bootstrap.
 
 
 #Imagens
+![Página inicial](images/prints-site/pagina-inicial.PNG)
+
+![Página “quem somos”](images/prints-site/pagina-quem-somos.PNG)
+
+![Página “nosso time”](images/prints-site/pagina-nosso-time.PNG)
+
+![Página “nossos produtos”](images/prints-site/pagina-nossos-produtos.PNG)
