@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Minha Loja Virtual</title>
+    <!-- Inclua os links para os arquivos CSS do Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        /* Estilo para o botão scroll-to-top */
+        #scrollToTop {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            border-radius: 50%;
+            width: 40px;
+            height: 40px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 20px;
+            cursor: pointer;
+        }
+
+        #scrollToTop:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+
+<!-- Barra de navegação -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+        <a class="navbar-brand" href="#" style="font-size: 26px;"><strong>Flor de Lis</strong></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse d-lg-flex justify-content-end" id="navbarNav" >
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="#quem-somos">Quem Somos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#nosso-time">Nosso Time</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#nossos-produtos">Nossos Produtos</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- Carousel -->
+<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+    <ol class="carousel-indicators">
+        <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"></li>
+        <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"></li>
+        <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"></li>
+        <!-- Adicione mais indicadores conforme necessário -->
+    </ol>
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+        <img src="https://mariafilo.vtexassets.com/arquivos/ids/426319/1517723_0024_2-VESTIDO-MIDI-BUSTO-VAZADO.jpg?v=1776780282" class="d-block w-100" alt="Vestido">
+        <div class="carousel-caption d-none d-md-block">
+            <h3>VESTIDO</h3>
+        </div>
+    </div>
+                <div class="carousel-item">
+                <img src="https://mariafilo.vtexassets.com/arquivos/ids/427689/1518117_04129_2-CASACO-TRICOT-RENDA.jpg?v=1776783539" class="d-block w-100" alt="Casaco">
+                <div class="carousel-caption d-none d-md-block">
+                    <h3>CASACO-TRICOT-RENDA</h3>
+                </div>
+            </div>
+        
+        <div class="carousel-item">
+            <img src="https://mariafilo.vtexassets.com/arquivos/ids/428541/1517814_04126_2-MACACAO-BUSTO-LASTEX.jpg?v=1776810489" class="d-block w-100" alt="Macacao">
+            <div class="carousel-caption d-none d-md-block">
+                <h3>MACACÃO</h3>
+            </div>
+         </div>
+        
+        <!-- Adicione mais itens do carousel conforme necessário -->
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Anterior</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Próximo</span>
+    </a>
+</div>
+
+<!-- Seção Quem Somos -->
+<section id="quem-somos" class="py-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6" >
+                <h1>Quem Somos</h1>
+                <h3>A marca</h3>
+                <p>Para mulheres reais e confiantes que inspiram pelo seu olhar otimista e poder de realização, a Flor de lís é uma marca de moda feminina que traz graça e sonho para todos os momentos.
+
+
+                    Em um mundo que precisa potencializar a sensibilidade como um ativo de força, a Flor de lís oferece versatilidade, feminilidade e autoestima, porque acredita que o feminino é uma força que nos conecta e nos transforma.
+                    
+                    .</p>
+                <h3>Nossa história</h3>  
+                <p>Nascemos do tricot, do handmade, do desejo de criar peças exclusivas, com muita feminilidade e versatilidade. A partir daí,  vendemos nossos produtos para todo o país, expandimos nossas matérias-primas e trouxemos a tecnologia para desenvolver roupas cada vez mais elaboradas nos detalhes, sem abrir mão da leveza e de caimentos naturalmente sofisticados. Hoje, vestimos mulheres contemporâneas do dia à noite, com aquele jeito que é a cara da elegância despretensiosa. Unimos o lifestyle tropical com a arte, a fluidez com shapes especiais, o easy com o chic. 
+
+
+                    Tudo isso com muito brilho no olho e vontade de deixar nossa marca por onde a gente passa.
+                    
+                    </p>  
+            </div>
+            <div class="col-md-6" style="display: grid; place-items: center; height: 100%; margin-top: 5rem; margin-bottom: 4rem;">
+                <img src="https://s3.amazonaws.com/ww-static-prod/wp-content/uploads/2019/09/03182006/ramy-brook-store-003.jpg" class="img-fluid rounded-circle" alt="Empresa">
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Seção Nosso Time -->
+<section id="nosso-time" class="bg-light py-5">
+    <div class="container">
+        <h2 class="text-center mb-4">Nosso Time</h2>
+        <div class="row" style="justify-content: center;">
+            <div class="col-md-3">
+                <img src="./imagens/empresaria.jpg" class="img-fluid rounded-circle mb-3" alt="Mirlene">
+                <h4>Mirlene</h4>
+                <p>Empresária</p>
+            </div>
+            <div class="col-md-3">
+                <img src="./imagens/gerente.jpg" class="img-fluid rounded-circle mb-3" alt="Leandro">
+                <h4>Leandro</h4>
+                <p>Gerente</p>
+            </div>
+            <div class="col-md-3">
+                <img src="./imagens/vendedor.jpg" class="img-fluid rounded-circle mb-3" alt="Pedro Lucas">
+                <h4>Pedro Lucas</h4>
+                <p>Vendedor</p>
+            </div>
+            <!-- Adicione mais membros do time conforme necessário -->
+        </div>
+    </div>
+</section>
+
+<!-- Seção Nossos Produtos -->
+<section id="nossos-produtos" class="py-5">
+    <div class="container">
+        <h2 class="text-center mb-4">Nossos Produtos</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://mariafilo.vtexassets.com/arquivos/ids/425545/1517522_27796_2-VESTIDO-MIDI-MANGA-LONGA-BORDADO.jpg?v=1776777182" class="card-img-top" alt="VESTIDO-MIDI-MANGA-LONGA-BORDADO">
+                    <div class="card-body">
+                        <p class="card-text">VESTIDO-MIDI-MANGA-LONGA-BORDADO.</p>
+                        <p class="card-text">R$235,00</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://mariafilo.vtexassets.com/arquivos/ids/426714/1517814_0005_2-MACACAO-BUSTO-LASTEX.jpg?v=1776777208" class="card-img-top" alt="MACACAO-BUSTO-LASTEX">
+                    <div class="card-body">
+                        <p class="card-text">MACACAO-BUSTO-LASTEX.</p>
+                        <p class="card-text">R$359,00</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://mariafilo.vtexassets.com/arquivos/ids/428988/1518409_04134_2-CALCA-LINHO-PREGAS.jpg?v=1776766083" class="card-img-top" alt="CALCA-LINHO-PREGAS">
+                    <div class="card-body">
+                        <p class="card-text">CALCA-LINHO-PREGAS.</p>
+                        <p class="card-text">R$449,00</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row" style="margin-top: 2rem; margin-bottom: 2rem;">
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://mariafilo.vtexassets.com/arquivos/ids/427299/1517961_0024_2-TUNICA-ALCA-ROLOTE.jpg?v=1776811096" class="card-img-top" alt="VESTIDO-MIDI-MANGA-LONGA-BORDADO">
+                    <div class="card-body">
+                        <p class="card-text">TUNICA-ALCA-ROLOTE.</p>
+                        <p class="card-text">R$135,00</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://mariafilo.vtexassets.com/arquivos/ids/428675/1518300_0024_2-BLUSA-TRICOT-FRANJADA.jpg?v=1776812659" class="card-img-top" alt="MACACAO-BUSTO-LASTEX">
+                    <div class="card-body">
+                        <p class="card-text">BLUSA-TRICOT-FRANJADA.</p>
+                        <p class="card-text">R$359,00</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://mariafilo.vtexassets.com/arquivos/ids/427782/1518154_0091_2-CALCA-JEANS-RETA-DETALHE-RESERVA.jpg?v=1776811710" class="card-img-top" alt="CALCA-LINHO-PREGAS">
+                    <div class="card-body">
+                        <p class="card-text">CALCA-JEANS-RETA-DETALHE-RESERVA.</p>
+                        <p class="card-text">R$489,00</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Continue adicionando mais linhas com col-md-4 conforme necessário -->
+    </div>
+</section>
+
+
+<!-- Rodapé -->
+<footer class="bg-dark text-white text-center py-3">
+    <div class="container">
+        <p>Endereço: Rua Senador Pompel, 123 -Recife, Pernambuco</p>
+        <p>Telefone: (81) 3456-7890</p>
+        <p>Redes Sociais: <a href="https://pt-br.facebook.com/" target="_blank">Facebook</a> | <a href="https://www.instagram.com/" target="_blank">Instagram</a> | <a href="https://twitter.com/i/flow/login?redirect_after_login=%2Flogin%3Flang%3Dpt" target="_blank">Twitter</a></p>
+    </div>
+</footer>
+
+
+<!-- Botão scroll-to-top -->
+<button id="scrollToTop" title="Voltar ao topo" onclick="scrollToTop()">&#8593;</button>
+
+<!-- Inclua os links para os arquivos JS do Bootstrap -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+<!-- Script JavaScript para o botão scroll-to-top -->
+<script>
+    function scrollToTop() {
+        window.scrollTo({
+            top: 0,
+            behavior: 'smooth'
+        });
+    }
+</script>
+
+
+<!-- Inclua os links para os arquivos JS do Bootstrap -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
