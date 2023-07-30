@@ -5,7 +5,7 @@ Foi utilizado: HTML, CSS, JavaScript e Bootstrap.
 
 
 #Imagens
-![Página inicial](./images/prints-site/pagina-inicial.PNG)
+![Página inicial](./images/prints-site/pagina-inicial.png)
 
 ![Página “quem somos”](./imagens/images/prints-site/pagina-quem-somos.PNG)
 
